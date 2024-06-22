@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "name": "Ключ Aragammi",
+      "category": "Ключи",
+      "price": 100,
+      "description": "Игра для настоящих ниньзя",
+      "image": ""
+    },
+    {
+      "id": "1",
+      "name": "Пополнение Pubg",
+      "category": "Пополнение",
+      "price": 150,
+      "description": "Живёте в России - не проблема! ",
+      "image": ""
+    },
+    {
+      "id": "2",
+      "name": "Пополнение Steam",
+      "category": "Пополнение",
+      "price": 50,
+      "description": "Пополните свой Steam",
+      "image": ""
+    },
+    {
+      "id": "3",
+      "name": "Прайм аккаунт СS",
+      "category": "Аккаунты",
+      "price": 99,
+      "description": "Успейте купить прайм на свой аккаунт",
+      "image": ""
+    },
+    {
+      "id": "4",
+      "name": "Скины для Dota2",
+      "category": "Скины",
+      "price": 12,
+      "description": "Успейте купить скины для своего аккаунта",
+      "image": ""
+    },
+    {
+      "id": "5",
+      "name": "Скины для CS",
+      "category": "Скины",
+      "price": 999999,
+      "description": "Только в этом месяце агент-ЖЕНЩИНА",
+      "image": ""
+    },
+    {
+      "id": "6",
+      "name": "Игра руссы против ящеров",
+      "category": "Игры",
+      "price": 1,
+      "description": "Окунись в незабываемый мир ящеров и древней руси",
+      "image": ""
+    },
+    {
+      "id": "7",
+      "name": "Игра Forest",
+      "category": "Игры",
+      "price": 99,
+      "description": "Выживай, ешь людей, руби лес!",
+      "image": ""
+    },
+    {
+      "id": "8",
+      "name": "Игра React",
+      "category": "Игры",
+      "price": 0,
+      "description": "Почувствуй себя разработчиком!",
+      "image": ""
+    }
+  ],
+  "favorites": [
+    {
+      "id": "1",
+      "name": "Пополнение Pubg",
+      "category": "Пополнение",
+      "price": 150,
+      "description": "Живёте в России - не проблема! ",
+      "image": ""
+    },
+    {
+      "id": "1",
+      "name": "Пополнение Pubg",
+      "category": "Пополнение",
+      "price": 150,
+      "description": "Живёте в России - не проблема! ",
+      "image": ""
+    },
+    {
+      "id": "1",
+      "name": "Пополнение Pubg",
+      "category": "Пополнение",
+      "price": 150,
+      "description": "Живёте в России - не проблема! ",
+      "image": ""
+    },
+    {
+      "id": "0",
+      "name": "Ключ Aragammi",
+      "category": "Ключи",
+      "price": 100,
+      "description": "Игра для настоящих ниньзя",
+      "image": ""
+    }
+  ],
+  "cart": [
+    {
+      "id": "0",
+      "name": "Ключ Aragammi",
+      "category": "Ключи",
+      "price": 100,
+      "description": "Игра для настоящих ниньзя",
+      "image": "",
+      "quantity": null
+    }
+  ]
+}
