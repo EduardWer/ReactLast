@@ -11,6 +11,7 @@ function Header() {
         <Navbar.Brand as={Link} to="/" style={{ color: '#00ff00' }}>ReactAccount</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
+
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/catalog" style={{ color: '#00ff00' }}>Каталог</Nav.Link>
             <Nav.Link as={Link} to="/" style={{ color: '#00ff00' }}>Главная</Nav.Link>
