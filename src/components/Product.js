@@ -45,24 +45,25 @@ function Product() {
   }
 
   return (
-    <Container className="d-flex flex-column flex-grow-1">
+    <Container className="d-flex flex-column flex-grow-1" style={{ backgroundColor: '#333', color: '#fff' }}>
       <Row className="my-4">
         <Col md={6}>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
             <img src={`/${product.image}`} alt={product.name} className="product-image" style={{ maxWidth: '100%', height: 'auto' }} />
           </motion.div>
         </Col>
-        <Col md={6}>
+        <Col md={6} style={{ padding: '20px' }}>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
             <h2>{product.name}</h2>
             <p>Описание: {product.description}.</p>
             <p><strong>${product.price}</strong></p>
-            <Button variant="primary" onClick={addToFavorites}>Добавить в избранные</Button>
-            <Button variant="success" onClick={addToCart} className="m-2">В корзину</Button>
+            <Button variant="primary" onClick={addToFavorites} style={{ backgroundColor: '#662d91', borderColor: '#662d91' }}>Добавить в избранные</Button>
+            <Button variant="success" onClick={addToCart} className="m-2" style={{ backgroundColor: '#00ff00', borderColor: '#00ff00' }}>В корзину</Button>
           </motion.div>
         </Col>
       </Row>
     </Container>
+
   );
 }
 

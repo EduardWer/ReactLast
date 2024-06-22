@@ -10,7 +10,7 @@ import gif from "./MainFoto.gif"
 function Home() {
   return (
     <Container>
-        <img src={gif} alt='Computer' className="fotos"/>
+        <img src={gif}  alt='Computer' className="fotos"/>
       <Row className="my-4">
         <Col>
           <h2>Добро пожаловать в ReactGame</h2>
@@ -25,7 +25,8 @@ function Home() {
       </Row>
       <Row className="my-4">
         <Col>
-          <h3>Обратная связь</h3>
+          <h3>Остались вопросы?</h3>
+            <pre>Пишите нашей службе поддержки, мы обязательно вам поможем!!</pre>
           <ContactForm />
         </Col>
       </Row>

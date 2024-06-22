@@ -20,7 +20,7 @@ function Catalog() {
     <Container className="my-5">
   <Row className="justify-content-center">
     <Col md={8}>
-      <h2 className="text-center mb-4">Каталог</h2>
+      <h2 className="text-center mb-4">Все товары</h2>
       <Form className="d-flex flex-column flex-md-row justify-content-between mb-4">
         <Form.Group controlId="search" className="mb-3 mb-md-0">
           <Form.Label className="sr-only">Поиск</Form.Label>

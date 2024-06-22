@@ -2,6 +2,7 @@ html, body, #root, .app-container {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: rgb(128, 128, 128);
 }
 
 .app-container {

@@ -2,11 +2,11 @@
   "products": [
     {
       "id": "0",
-      "name": "Ключ Aragammi",
+      "name": "Ключ-аккаунт Aragammi",
       "category": "Ключи",
       "price": 100,
       "description": "Игра для настоящих ниньзя",
-      "image": ""
+      "image": "imeges/aragami.jpg"
     },
     {
       "id": "1",
@@ -14,7 +14,7 @@
       "category": "Пополнение",
       "price": 150,
       "description": "Живёте в России - не проблема! ",
-      "image": ""
+      "image": "imeges/pubg.jpg"
     },
     {
       "id": "2",
@@ -22,7 +22,7 @@
       "category": "Пополнение",
       "price": 50,
       "description": "Пополните свой Steam",
-      "image": ""
+      "image": "imeges/steam.jpg"
     },
     {
       "id": "3",
@@ -30,7 +30,7 @@
       "category": "Аккаунты",
       "price": 99,
       "description": "Успейте купить прайм на свой аккаунт",
-      "image": ""
+      "image": "imeges/cs.jpg"
     },
     {
       "id": "4",
@@ -38,7 +38,7 @@
       "category": "Скины",
       "price": 12,
       "description": "Успейте купить скины для своего аккаунта",
-      "image": ""
+      "image": "imeges/dota2_social.jpg"
     },
     {
       "id": "5",
@@ -46,7 +46,7 @@
       "category": "Скины",
       "price": 999999,
       "description": "Только в этом месяце агент-ЖЕНЩИНА",
-      "image": ""
+      "image": "imeges/cs.jpg"
     },
     {
       "id": "6",
@@ -54,57 +54,33 @@
       "category": "Игры",
       "price": 1,
       "description": "Окунись в незабываемый мир ящеров и древней руси",
-      "image": ""
+      "image": "imeges/Русы_против_ящеров.jpg"
     },
     {
       "id": "7",
       "name": "Игра Forest",
-      "category": "Игры",
+      "category": "Аккаунты",
       "price": 99,
       "description": "Выживай, ешь людей, руби лес!",
-      "image": ""
+      "image": "imeges/forest.jpg"
     },
     {
       "id": "8",
       "name": "Игра React",
-      "category": "Игры",
+      "category": "Аккаунты",
       "price": 0,
       "description": "Почувствуй себя разработчиком!",
-      "image": ""
+      "image": "imeges/logo-og.png"
     }
   ],
   "favorites": [
     {
-      "id": "1",
-      "name": "Пополнение Pubg",
-      "category": "Пополнение",
-      "price": 150,
-      "description": "Живёте в России - не проблема! ",
-      "image": ""
-    },
-    {
-      "id": "1",
-      "name": "Пополнение Pubg",
-      "category": "Пополнение",
-      "price": 150,
-      "description": "Живёте в России - не проблема! ",
-      "image": ""
-    },
-    {
-      "id": "1",
-      "name": "Пополнение Pubg",
-      "category": "Пополнение",
-      "price": 150,
-      "description": "Живёте в России - не проблема! ",
-      "image": ""
-    },
-    {
-      "id": "0",
-      "name": "Ключ Aragammi",
-      "category": "Ключи",
-      "price": 100,
-      "description": "Игра для настоящих ниньзя",
-      "image": ""
+      "id": "3",
+      "name": "Прайм аккаунт СS",
+      "category": "Аккаунты",
+      "price": 99,
+      "description": "Успейте купить прайм на свой аккаунт",
+      "image": "imeges/cs.jpg"
     }
   ],
   "cart": [
@@ -114,8 +90,17 @@
       "category": "Ключи",
       "price": 100,
       "description": "Игра для настоящих ниньзя",
-      "image": "",
-      "quantity": null
+      "image": "imeges/images.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "name": "Прайм аккаунт СS",
+      "category": "Аккаунты",
+      "price": 99,
+      "description": "Успейте купить прайм на свой аккаунт",
+      "image": "imeges/cs.jpg",
+      "quantity": 1
     }
   ]
 }

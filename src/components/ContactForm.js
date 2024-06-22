@@ -11,13 +11,13 @@ function ContactForm() {
   const onSubmit = (data) => {
     console.log(data);
 
-    const templateParams = {
+    const DataContext = {
       name: data.name,
       email: data.email,
-      message: data.message
+      message: "eduard.unanov@mail.ru"
     };
 
-    emailjs.send('service_10y6ww9', 'template_st0qsqa', templateParams, 'KEah7QPKpKW7BsYuM')
+    emailjs.send('service_9lfhgyj', 'template_st0qsqa', DataContext, 'KEah7QPKpKW7BsYuM')
       .then((response) => {
         console.log('Сообщение отправлено успешно!', response.status, response.text);
       }, (error) => {
@@ -38,19 +38,13 @@ function ContactForm() {
     <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 0.5 }}>
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Form.Group controlId="name" className="mt-3">
-          <Form.Label>Ваше ФИО</Form.Label>
+          <Form.Label>ФИО</Form.Label>
           <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 0.5, delay: 0.1 }}>
             <Form.Control type="text" placeholder="Введите ваше имя" {...register('name', { required: true })} />
             {errors.name && <span className="text-danger">Заполните данное поле</span>}
           </motion.div>
         </Form.Group>
-        <Form.Group controlId="email" className="mt-3">
-          <Form.Label>Ваш Email адрес</Form.Label>
-          <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 0.5, delay: 0.2 }}>
-            <Form.Control type="email" placeholder="Введите ваш email" {...register('email', { required: true })} />
-            {errors.email && <span className="text-danger">Заполните данное поле</span>}
-          </motion.div>
-        </Form.Group>
+
         <Form.Group controlId="message" className="mt-3">
           <Form.Label>Сообщение</Form.Label>
           <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 0.5, delay: 0.3 }}>
